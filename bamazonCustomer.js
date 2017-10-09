@@ -85,7 +85,7 @@ function forSaleQuantity(id, name, quantity){
 			showReceipt(id, name, answers.forsalequantity, price);
 		} else {
 			console.log("Sorry, that number is greater than the current stock. Please try again.");
-			forSaleQuantity(id, name);
+			forSaleQuantity(id, name, quantity);
 		}
 	})
 };
